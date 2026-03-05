@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 次元星域</title>
-    <link>https://nino-natsume.github.io/ja/post/</link>
+    <link>http://localhost:1313/ja/post/</link>
     <description>Recent content from 次元星域</description>
     <generator>Hugo</generator>
     <language>ja</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 28 Feb 2026 11:00:00 +0900</lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/ja/post/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/ja/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hugoウェブサイト構築プロセス</title>
-      <link>https://nino-natsume.github.io/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
+      <link>http://localhost:1313/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sat, 28 Feb 2026 11:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
       <description>
         <![CDATA[<h1>Hugoウェブサイト構築プロセス</h1><p>著者: 夏沐真凉(info@natsume.xin)</p>
         
@@ -35,7 +35,7 @@
 はじめに
 </h1><p>このチュートリアル専用のブログを作成したくなかったので、この記事で全てを詳しく説明し、できる限りスムーズに設定できるようにしたいと思います。</p>
         
-        <hr><p>この記事は2026-02-28に<a href='https://nino-natsume.github.io/'>次元星域</a>で公開され、最終更新日は2026-02-28です</p>]]>
+        <hr><p>この記事は2026-02-28に<a href='http://localhost:1313/'>次元星域</a>で公開され、最終更新日は2026-02-28です</p>]]>
       </description>
       
         <category>次元星域</category>
@@ -46,10 +46,10 @@
 
     <item>
       <title>ある人の観察と経験</title>
-      <link>https://nino-natsume.github.io/ja/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</link>
+      <link>http://localhost:1313/ja/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</link>
       <pubDate>Fri, 27 Feb 2026 17:09:21 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/ja/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</guid>
+      <guid>http://localhost:1313/ja/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</guid>
       <description>
         <![CDATA[<h1>ある人の観察と経験</h1><p>著者: 夏沐真凉(info@natsume.xin)</p>
         
@@ -62,7 +62,7 @@
 はじめに
 </h2><p>これは、私がオンラインでよく目にする名前と絵文字「Ciallo～(∠・ω&lt; )⌒★」について、完全に個人的なメモです。</p>
         
-        <hr><p>この記事は2026-02-27に<a href='https://nino-natsume.github.io/'>次元星域</a>で公開され、最終更新日は2026-02-27です</p>]]>
+        <hr><p>この記事は2026-02-27に<a href='http://localhost:1313/'>次元星域</a>で公開され、最終更新日は2026-02-27です</p>]]>
       </description>
       
     </item>
@@ -71,10 +71,10 @@
 
     <item>
       <title>次元星域——シンプルな小さな二次元ウェブサイト</title>
-      <link>https://nino-natsume.github.io/ja/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</link>
+      <link>http://localhost:1313/ja/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</link>
       <pubDate>Fri, 27 Feb 2026 17:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/ja/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</guid>
+      <guid>http://localhost:1313/ja/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</guid>
       <description>
         <![CDATA[<h1>次元星域——シンプルな小さな二次元ウェブサイト</h1><p>著者: 夏沐真凉(info@natsume.xin)</p>
         
@@ -85,7 +85,7 @@
 <p>ふぅ〜〜</p>
 <p>少しずつ修正と再構築を繰り返し、数日かかりました。リンク切れで接続できないこともあれば、画像やCSSスタイルが抜け落ちていることもありました…</p>
         
-        <hr><p>この記事は2026-02-27に<a href='https://nino-natsume.github.io/'>次元星域</a>で公開され、最終更新日は2026-02-27です</p>]]>
+        <hr><p>この記事は2026-02-27に<a href='http://localhost:1313/'>次元星域</a>で公開され、最終更新日は2026-02-27です</p>]]>
       </description>
       
     </item>

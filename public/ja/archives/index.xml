@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>次元星域</title>
-    <link>https://nino-natsume.github.io/ja/archives/</link>
+    <link>http://localhost:1313/ja/archives/</link>
     <description>Recent content from 次元星域</description>
     <generator>Hugo</generator>
     <language>ja</language>
@@ -15,7 +15,7 @@
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/ja/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/ja/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

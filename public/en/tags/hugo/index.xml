@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Jigen_Seiki</title>
-    <link>https://nino-natsume.github.io/en/tags/hugo/</link>
+    <link>http://localhost:1313/en/tags/hugo/</link>
     <description>Recent content from Jigen_Seiki</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 28 Feb 2026 11:00:00 +0900</lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/en/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hugo Website Building Process</title>
-      <link>https://nino-natsume.github.io/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
+      <link>http://localhost:1313/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sat, 28 Feb 2026 11:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
       <description>
         <![CDATA[<h1>Hugo Website Building Process</h1><p>Author: 夏沐真凉(info@natsume.xin)</p>
         
@@ -40,7 +40,7 @@ Introduction
 <strong>Article Understanding and Configuration Instructions:</strong>
 </h2><p>To help you understand this article, I strongly recommend reading this explanation to understand which folder corresponds to which part of the tutorial below:</p>
         
-        <hr><p>Published on 2026-02-28 at <a href='https://nino-natsume.github.io/'>Jigen_Seiki</a>, last modified on 2026-02-28</p>]]>
+        <hr><p>Published on 2026-02-28 at <a href='http://localhost:1313/'>Jigen_Seiki</a>, last modified on 2026-02-28</p>]]>
       </description>
       
         <category>次元星域</category>

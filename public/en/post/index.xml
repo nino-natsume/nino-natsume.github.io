@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jigen_Seiki</title>
-    <link>https://nino-natsume.github.io/en/post/</link>
+    <link>http://localhost:1313/en/post/</link>
     <description>Recent content from Jigen_Seiki</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 28 Feb 2026 11:00:00 +0900</lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/en/post/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/en/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hugo Website Building Process</title>
-      <link>https://nino-natsume.github.io/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
+      <link>http://localhost:1313/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sat, 28 Feb 2026 11:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/en/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
       <description>
         <![CDATA[<h1>Hugo Website Building Process</h1><p>Author: 夏沐真凉(info@natsume.xin)</p>
         
@@ -40,7 +40,7 @@ Introduction
 <strong>Article Understanding and Configuration Instructions:</strong>
 </h2><p>To help you understand this article, I strongly recommend reading this explanation to understand which folder corresponds to which part of the tutorial below:</p>
         
-        <hr><p>Published on 2026-02-28 at <a href='https://nino-natsume.github.io/'>Jigen_Seiki</a>, last modified on 2026-02-28</p>]]>
+        <hr><p>Published on 2026-02-28 at <a href='http://localhost:1313/'>Jigen_Seiki</a>, last modified on 2026-02-28</p>]]>
       </description>
       
         <category>次元星域</category>
@@ -51,10 +51,10 @@ Introduction
 
     <item>
       <title>A personal observations and experiences</title>
-      <link>https://nino-natsume.github.io/en/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</link>
+      <link>http://localhost:1313/en/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</link>
       <pubDate>Fri, 27 Feb 2026 17:09:21 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/en/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</guid>
+      <guid>http://localhost:1313/en/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E8%A7%82%E5%AF%9F%E4%B8%8E%E4%BD%93%E4%BC%9A/</guid>
       <description>
         <![CDATA[<h1>A personal observations and experiences</h1><p>Author: 夏沐真凉(info@natsume.xin)</p>
         
@@ -72,7 +72,7 @@ Introduction
 My First Encounter with Ciallo
 </h2><p>I remember the first time I saw “Ciallo～(∠・ω&lt; )⌒★” was in a fanfiction thread.</p>
         
-        <hr><p>Published on 2026-02-27 at <a href='https://nino-natsume.github.io/'>Jigen_Seiki</a>, last modified on 2026-02-27</p>]]>
+        <hr><p>Published on 2026-02-27 at <a href='http://localhost:1313/'>Jigen_Seiki</a>, last modified on 2026-02-27</p>]]>
       </description>
       
     </item>
@@ -81,10 +81,10 @@ My First Encounter with Ciallo
 
     <item>
       <title>Jigen Seiki——A simple anime/manga website</title>
-      <link>https://nino-natsume.github.io/en/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</link>
+      <link>http://localhost:1313/en/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</link>
       <pubDate>Fri, 27 Feb 2026 17:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/en/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</guid>
+      <guid>http://localhost:1313/en/post/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E4%BA%8C%E6%AC%A1%E5%85%83%E5%B0%8F%E7%AB%99/</guid>
       <description>
         <![CDATA[<h1>Jigen Seiki——A simple anime/manga website</h1><p>Author: 夏沐真凉(info@natsume.xin)</p>
         
@@ -96,7 +96,7 @@ Jigen Seiki - A Simple Anime/Manga Site
 <p>It took several days of fixing and rebuilding bit by bit. Sometimes the website wouldn&rsquo;t connect due to broken links; sometimes images or CSS styles were missing&hellip;</p>
 <p>Anyway, there were a lot of problems when we first started building it, and it took a lot of time, but it&rsquo;s finally finished, just like you see now.</p>
         
-        <hr><p>Published on 2026-02-27 at <a href='https://nino-natsume.github.io/'>Jigen_Seiki</a>, last modified on 2026-02-27</p>]]>
+        <hr><p>Published on 2026-02-27 at <a href='http://localhost:1313/'>Jigen_Seiki</a>, last modified on 2026-02-27</p>]]>
       </description>
       
     </item>

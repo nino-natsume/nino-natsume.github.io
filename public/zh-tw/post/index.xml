@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 次元星域</title>
-    <link>https://nino-natsume.github.io/zh-tw/post/</link>
+    <link>http://localhost:1313/zh-tw/post/</link>
     <description>Recent content from 次元星域</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 01 Jan 2000 00:00:01 +0900</lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/zh-tw/post/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/zh-tw/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>致 繁中用户</title>
-      <link>https://nino-natsume.github.io/zh-tw/post/%E8%87%B4-%E7%B9%81%E4%B8%AD%E7%94%A8%E6%88%B7/</link>
+      <link>http://localhost:1313/zh-tw/post/%E8%87%B4-%E7%B9%81%E4%B8%AD%E7%94%A8%E6%88%B7/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:01 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/zh-tw/post/%E8%87%B4-%E7%B9%81%E4%B8%AD%E7%94%A8%E6%88%B7/</guid>
+      <guid>http://localhost:1313/zh-tw/post/%E8%87%B4-%E7%B9%81%E4%B8%AD%E7%94%A8%E6%88%B7/</guid>
       <description>
         <![CDATA[<h1>致 繁中用户</h1><p>作者：夏沐真凉（info@natsume.xin）</p>
         
@@ -36,7 +36,7 @@
 </h1><p>本站將不為繁體中文（含中國香港、中國澳門、中國台灣等）用戶提供資源</p>
 <p>因為太麻煩了，一篇文章要更新幾種語言，主題還沒有自動翻譯插件，若有需要請使用其他語言</p>
         
-        <hr><p>本文2000-01-01首發於<a href='https://nino-natsume.github.io/'>次元星域</a>，最後修改於2000-01-01</p>]]>
+        <hr><p>本文2000-01-01首發於<a href='http://localhost:1313/'>次元星域</a>，最後修改於2000-01-01</p>]]>
       </description>
       
     </item>

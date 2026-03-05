@@ -1230,7 +1230,7 @@ jobs:
 ```
 git add .
 git commit -m "update"
-git push -u origin main                                              # 若失败则把 -u 改为 -f
+git push                        # 若失败则输入 `git push -u origin main` 或 `git push -f origin main` 
 ```
 
 8. 返回 Github界面，点击 Action，当看到当前两个工作流（网页显示workflow）成功运行，显示绿色带钩时，点击 Settings，点击 Pages，在 Branch栏选择 main，最后点击 Save

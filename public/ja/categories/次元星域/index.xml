@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>次元星域</title>
-    <link>https://nino-natsume.github.io/ja/categories/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F/</link>
+    <link>http://localhost:1313/ja/categories/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F/</link>
     <description>Recent content from 次元星域</description>
     <generator>Hugo</generator>
     <language>ja</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 28 Feb 2026 11:00:00 +0900</lastBuildDate>
     
     
-    <atom:link href="https://nino-natsume.github.io/ja/categories/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/ja/categories/%E6%AC%A1%E5%85%83%E6%98%9F%E5%9F%9F/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hugoウェブサイト構築プロセス</title>
-      <link>https://nino-natsume.github.io/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
+      <link>http://localhost:1313/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sat, 28 Feb 2026 11:00:00 &#43;0900</pubDate>
       <author>info@natsume.xin (夏沐真凉)</author>
-      <guid>https://nino-natsume.github.io/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/ja/post/hugo%E5%BB%BA%E7%AB%99%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
       <description>
         <![CDATA[<h1>Hugoウェブサイト構築プロセス</h1><p>著者: 夏沐真凉(info@natsume.xin)</p>
         
@@ -35,7 +35,7 @@
 はじめに
 </h1><p>このチュートリアル専用のブログを作成したくなかったので、この記事で全てを詳しく説明し、できる限りスムーズに設定できるようにしたいと思います。</p>
         
-        <hr><p>この記事は2026-02-28に<a href='https://nino-natsume.github.io/'>次元星域</a>で公開され、最終更新日は2026-02-28です</p>]]>
+        <hr><p>この記事は2026-02-28に<a href='http://localhost:1313/'>次元星域</a>で公開され、最終更新日は2026-02-28です</p>]]>
       </description>
       
         <category>次元星域</category>
