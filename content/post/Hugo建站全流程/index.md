@@ -1108,9 +1108,7 @@ Ciallo～(∠・ω< )⌒★
 3. 删除 /blog/blog/public 文件夹，在 /blog/blog文件夹地址栏呼出的命令行处输入 `hugo -D`以生成新的 public文件夹
 
 {{< details summary="为什么要这么做？" >}}
-在你创建和修改博客样式、文字等信息时会在 public文件夹内写入不少东西，时间长了，文件夹会大，编译的速度就会下降，从而影响体验
-
-**说人话：删除缓存，提高网站运行速度**
+**删除缓存，提高网站运行速度**
 {{< /details >}}
 
 之后再依此输入以下代码：
@@ -1131,34 +1129,6 @@ git push -u origin main                                              # 若失败
 
 {{< details summary="救命锦囊" >}}
 如果进入博客后出现无渲染等情况，删除仓库，同时打开 显示隐藏的项目，删除 /blog/blog/.git文件夹，重新按此部分操作即可
-{{< /details >}}
-
-{{< details summary="想使用其他域名？" >}}
-如果想使用其他域名，请参考以下配置，以Cloudflare和华为云为例，其他域名服务商的配置可能有所不同
-
-配置域名方法：
-1. 在Cloudflare处完成主域名解析，比如在 Cloudflare内解析了一个主域名如 `example.com`，在执行以下操作前决定好博客要用什么域名，比如 `blog.example.com`，注意，此处应为二级域名，且仅能为二级域名，其他级别的域名都会绑不上华为云
-
-2. 打开你的梯子且**一定要开全局！！**，否则注册的是国区而非国际区，之后打开[华为云](https://www.huaweicloud.com/intl/zh-cn/)官网，注册账号，用邮箱注册即可，中途如果需要你做登录验证的点选"我已知悉"后点"暂不开启"，需要你绑定手机号的一律跳过！！
-3. 进入控制台后，在 我的资源 栏点击 公网域名 ，添加域名为刚第 1 步决定好的域名，添加成功后按下面模板分别在 Cloudflare和华为云内配置
-
-Cloudflare配置：
-
-| 类型 | 名称 | 名称服务器 | TTL |
-| :---: | :---: | :---: | :---: |
-| NS | blog | ns1.huaweicloud-dns.org | 自动 |
-| NS | blog | ns1.huaweicloud-dns.net | 自动 |
-| NS | blog | ns1.huaweicloud-dns.com | 自动 |
-| NS | blog | ns1.huaweicloud-dns.cn | 自动 |
-
-华为云配置需点击 添加记录集，填写下面信息后确定：
-
-| 记录类型 | 主机记录 | 线路类型 | TTL（秒）| 记录值 |
-| :---: | :---: | :---: | :---: | :---: |
-| CNAME | 不填 | 全网默认 | 300 | Github仓库名 |
-
-4. 在 Github 的 Setting - Pages页面，下滑找到 Custom domain，输入域名，点击 Save，再是**一定要可勾选** "Enforce HTTPS"，等待生效即可。若点了 Save，Enforce HTTPS为灰色的不可勾选状态就是有地方配置错了，返回去检查.
-5. 这样配置完成后，访问域名 `https://blog.example.com`即可进入博客啦~
 {{< /details >}}
 
 ### 4.2 自动部署（**已完成初次部署，后续需更新代码**）
@@ -1225,14 +1195,58 @@ jobs:
 
 上方的 `ghp_xxxxxxxxxxxxxxxxx`为刚刚第4步生成的密钥粘贴在这
 
-7. 在 /blog/blog文件夹的地址栏输入cmd呼出命令行，依此输入以下代码，中途可能要验证你的github，按提示做就行，为确保上传成功，请常开代理
+7. 删除 /blog/blog/public 文件夹，在 /blog/blog文件夹地址栏呼出的命令行处输入 `hugo -D`以生成新的 public文件夹
+
+8. 在 /blog/blog文件夹的地址栏输入cmd呼出命令行，根据具体情况分别输入以下代码（ **看清楚适用的情况，爆红了自己检查**），为确保上传成功，请常开代理
 
 ```
+#######################
+以下代码用于首次使用自动部署时
+#######################
+git init
+git add .
+git commit -m "update"
+git branch -M main
+git remote add origin https://github.com/example/blog.git         # 记得改
+git push -u origin main         # 若失败则输入 `git push -f origin main`
+
+#######################
+以下代码用于已完成第一次自动部署时
+#######################
 git add .
 git commit -m "update"
 git push                        # 若失败则输入 `git push -u origin main` 或 `git push -f origin main` 
 ```
 
-8. 返回 Github界面，点击 Action，当看到当前两个工作流（网页显示workflow）成功运行，显示绿色带钩时，点击 Settings，点击 Pages，在 Branch栏选择 main，最后点击 Save
+9. 返回 Github界面，点击 Action，当看到当前两个工作流（网页显示workflow）成功运行，显示地址时即可查看博客
 
-9. 等待几分钟后刷新，当 Pages页显示地址时即可查看博客
+{{< details summary="想使用自定义域名？" >}}
+如果想使用其他域名，请参考以下配置，以Cloudflare和华为云为例，其他域名服务商的配置可能有所不同
+
+配置域名方法：
+1. 在Cloudflare处完成主域名解析，比如在 Cloudflare内解析了一个主域名如 `example.com`，在执行以下操作前决定好博客要用什么域名，比如 `blog.example.com`，注意，此处应为二级域名，且仅能为二级域名，其他级别的域名都会绑不上华为云或后续绑好后无法访问博客
+
+2. 打开你的梯子且 **一定要开全局！！**，否则注册的是国区而非国际区，之后打开[华为云](https://www.huaweicloud.com/intl/zh-cn/)官网，注册账号，用邮箱注册即可，中途如果需要你做登录验证的点选"我已知悉"后点"暂不开启"，需要你绑定手机号的一律跳过！！
+3. 进入控制台后，在 我的资源 栏点击 公网域名 ，添加域名为刚第 1 步决定好的域名，添加成功后按下面模板分别在 Cloudflare和华为云内配置
+
+```
+Cloudflare配置：
+
+| 类型 | 名称 | 名称服务器 | TTL |
+| :---: | :---: | :---: | :---: |
+| NS | blog | ns1.huaweicloud-dns.org | 自动 |
+| NS | blog | ns1.huaweicloud-dns.net | 自动 |
+| NS | blog | ns1.huaweicloud-dns.com | 自动 |
+| NS | blog | ns1.huaweicloud-dns.cn | 自动 |
+
+华为云配置需点击 添加记录集，填写下面信息后确定：
+
+| 记录类型 | 主机记录 | 线路类型 | TTL（秒）| 记录值 |
+| :---: | :---: | :---: | :---: | :---: |
+| CNAME | 不填 | 全网默认 | 300 | Github仓库名 |
+
+```
+
+4. 在 Github 的 Setting - Pages页面，下滑找到 Custom domain，输入域名，点击 Save，再是**一定要可勾选** "Enforce HTTPS"，等待生效即可。若点了 Save，Enforce HTTPS为灰色的不可勾选状态就是有地方配置错了，返回去检查.
+5. 这样配置完成后，访问域名 `https://blog.example.com`即可进入博客啦~
+{{< /details >}}
