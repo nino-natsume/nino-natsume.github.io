@@ -22,7 +22,7 @@ tags:
 ## **文章理解与配置说明：**
 为了便于你理解本篇内容，墙裂建议阅读本说明，知道下方教程中对应哪个文件夹：
 
-| 文件夹或文件 | 含义 |
+| 文件夹、文件或路径 | 含义 |
 | :----: | :----: |
 | /blog | 初始文件夹 |
 | /blog/blog | 博客目录，若自定义请自改，如/blog/0721 |
@@ -1092,6 +1092,14 @@ Ciallo～(∠・ω< )⌒★
 ## 4.博客部署
 ### 4.1 标准部署（**首次必须使用该方式**）
 **下方步骤的每一点都要做对，否则都会部署失败！！**
+
+{{< alertBlockquote type="warning" >}}
+此处需将example更改为你自己的username，不要傻乎乎地把我给的example粘贴上去，如某人的Github主页是 `https://github.com/ciallo` ，此处的example应为ciallo，TA的仓库名应为 ciallo.github.io，后面有关仓库名的部分也是如此
+
+还有一件事~
+
+**请确保你的username应全为小写，若出现大写或数字开头等情况都会无法使用！！！**
+{{< /alertBlockquote  >}}
 
 1. 登录你的Github账号，在 https://github.com/example?tab=repositories 界面新建一个仓库，仓库名为 `example.github.io`
 
