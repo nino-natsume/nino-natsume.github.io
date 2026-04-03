@@ -306,5 +306,7 @@
                 hreflang="zh-CN"
                 href="http://localhost:1313/archives/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/post/%E3%82%A4%E3%82%B1%E3%81%AA%E3%81%84-%E5%90%8C%E6%A3%B2%E3%82%89%E3%81%84%E3%81%B5/</loc>
   </url>
 </urlset>
